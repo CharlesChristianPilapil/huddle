@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+i {
+    font-size: 2rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+i:hover {
+    color: hsl(210, 100%, 50%);
+}
