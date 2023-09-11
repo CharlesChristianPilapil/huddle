@@ -854,6 +854,10 @@ i:hover {
     width: 40%;
   }
 
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -910,6 +914,10 @@ i:hover {
 @media (min-width: 992px) {
   .lg\:h-8 {
     height: 2rem;
+  }
+
+  .lg\:h-2\/5 {
+    height: 40%;
   }
 
   .lg\:w-2\/3 {
