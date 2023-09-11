@@ -928,6 +928,14 @@ i:hover {
     width: 40%;
   }
 
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:max-w-md {
     max-width: 28rem;
   }
