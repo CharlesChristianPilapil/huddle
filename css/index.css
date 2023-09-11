@@ -568,6 +568,10 @@ video {
   height: 1.25rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -858,6 +862,10 @@ i:hover {
     width: 80%;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -934,6 +942,10 @@ i:hover {
 
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:w-3 {
+    width: 0.75rem;
   }
 
   .lg\:max-w-md {
