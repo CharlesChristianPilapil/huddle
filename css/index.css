@@ -568,10 +568,6 @@ video {
   height: 1.25rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -830,6 +826,19 @@ i:hover {
   color: hsl(210, 100%, 50%);
 }
 
+#gago {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s;
+  filter: blur(1rem);
+}
+
+#gago.show {
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
 .hover\:border-LightPink:hover {
   --tw-border-opacity: 1;
   border-color: hsl(321 100% 78% / var(--tw-border-opacity));
@@ -856,10 +865,6 @@ i:hover {
 
   .md\:w-2\/5 {
     width: 40%;
-  }
-
-  .md\:w-4\/5 {
-    width: 80%;
   }
 
   .md\:w-3\/5 {
@@ -924,28 +929,12 @@ i:hover {
     height: 2rem;
   }
 
-  .lg\:h-2\/5 {
-    height: 40%;
-  }
-
   .lg\:w-2\/3 {
     width: 66.666667%;
   }
 
-  .lg\:w-2\/5 {
-    width: 40%;
-  }
-
-  .lg\:w-3\/5 {
-    width: 60%;
-  }
-
-  .lg\:w-3\/4 {
-    width: 75%;
-  }
-
-  .lg\:w-3 {
-    width: 0.75rem;
+  .lg\:w-\[800px\] {
+    width: 800px;
   }
 
   .lg\:max-w-md {

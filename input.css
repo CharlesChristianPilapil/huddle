@@ -11,3 +11,16 @@ i {
 i:hover {
     color: hsl(210, 100%, 50%);
 }
+
+#gago {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+    filter: blur(1rem);
+}
+
+#gago.show {
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+}
