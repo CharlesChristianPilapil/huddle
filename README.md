@@ -1,1 +1,1 @@
-[Check Website Here...](ccp-huddle-landing-page-curve.netlify.app)
+https://ccp-huddle-landing-page-curve.netlify.app/
